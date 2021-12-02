@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background:url(/Img/pexels-joyston-judah-933054.jpg) center center no-repeat;
+    background-size: cover;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 1400px;
+     margin: 0 auto;
+     
+}
+.main-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 32px;
+   
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+   
+
+}
+
+h3{
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    font-weight:400 ;
+
+}
+
+
+a{
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+li{
+    list-style-type:none ;
+    margin-left: 30px;
+}
+
+a:hover{
+    color: #feceab;
+}
+
+h2,h1,p{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+    color:white;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 800;
+}
+
+h1{
+    font-size: 52px;
+    font-weight: 800;
+}
+
+.nam{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.texts{
+    padding-top: 230px;
+}
+.b-k{
+    padding-top:60px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 171px;
+    height: 54px;
+    background: #e84a5f;
+    color: white;
+    font-weight:800;
+    font-size: 14px;
+    border-radius:10% ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px solid #ff847c;
+    position: relative;
+}
+
+.arrows{
+    display: flex;
+    justify-content: center;
+    font-size: 120px;
+    color: white;
+}
+
+.r-a,.l-a{
+    top: 520px;
+    position: absolute;
+}
+
+.r-a{
+    position: absolute;
+    right: 150px;
+    
+}
+.r-a:hover{
+    color: #feceab;
+    transform: scale(1.2);
+}
+.l-a:hover{
+    color: #feceab;
+    transform: scale(1.2);
+}
+.l-a{
+    position: absolute;
+    left: 150px;
+}
+button:hover{
+    transform: scale(1.2);
+}
+
+.cart-1:hover{
+    transform: scale(1.2);
+}
+.search-1:hover{
+    transform: scale(1.2);
+}
+
+.container-2{
+    width: 100%;
+    max-width: 1400px;
+     margin: 0 auto;
+}
+
+.header-2{
+    width: 100%;
+    height: 100vh;
+}
+
+.main-head-info{
+    padding-top:400px ;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.h-2{
+    color: #555555;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.p-2{
+    color: #555555;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.logo-2{
+    font-size: 38px;
+    padding-bottom: 20px;
+    color: #555555;
+}
+
+.line-brown{
+    width: 100px;
+    height: 5px;
+    background:#555555;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.block{
+    width: 370px;
+    height: 240px;
+    margin-left: 100px;    
+}
+
+.blocks{
+    display: flex;
+}
+
+.block:hover .logo-2{
+    color:#ff847c;
+}
+
+.block:hover .line-brown{
+    background:#ff847c;
+    animation: LineAnimation;
+    animation: LineAnimation 0.2s linear forwards;
+}
+
+@keyframes LineAnimation {
+    0% {
+        width: 125px;
+    }
+    50%{
+        width: 150px;
+    }
+    100% {
+        width: 200px;
+    }
+}
+
+.mid-2{
+    width: 1600px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+
+    align-items:center;
+
+}
+.header-info{
+    width: 200%;
+    height: 700px;
+    text-align: center;
+    background:chartreuse;
+}
+.mid-info{
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.Images{
+    width: 2000px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
